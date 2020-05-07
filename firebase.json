@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "auth-app",
+      "public": "dist/auth-app",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

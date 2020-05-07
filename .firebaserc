@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "dummy-b1c5b": {
+      "hosting": {
+        "auth-app": [
+          "dummy-b1c5b"
+        ]
+      }
+    }
+  }
+}
